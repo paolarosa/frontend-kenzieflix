@@ -17,7 +17,6 @@
     width: 300px;
 }
 
-/*.principal {height: 50%;}    ou 500px   */ 
 
 .principal {
     display: flex;
@@ -34,24 +33,49 @@ h1 {
 }
 
 .usuarios {
-    /* height: 100%; */
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     max-width: 700px;
     margin-top: 30px;
     margin-bottom: 100px;;
-    /* margin: 20px; /* arrumando aqui */
-    /* width: 160px; */
+   
+
 }
+/*.usuarios li {opacity: 0.8;
+
+}
+.usuarios li:hover {opacity: 1.0;} */
+
 .usuarios li img {
     border-radius: 15px;
     width: 160px;
-    margin: 15x
-}
-.usuarios li img:hover {
+    margin: 1x;}
+
+.usuarios li .imagem:hover { border-radius: 15px;
     border: 2px white solid;
+    margin: -2px;
+    
 }
+.usuarios li.usu4 {
+    width: 160px;
+
+
+}
+ .usuarios li .borda {border-radius:  15px;
+    background-color: rgba(128, 128, 128, 0.222);
+width: 160px;
+height: 160px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+
+.usuarios li .usu4 figure {height: 300px;
+border: 1px white solid}
+
+.usuarios .usu4 img {height: 60px;
+width: 60px;} 
 
 .usuarios li { display: flex;
     flex-direction: column;
@@ -60,6 +84,8 @@ h1 {
     gap: 20px;
     font-size: 16px;
 }
+
+.usuarios li h2:hover {opacity: 0.5;}
 
 .botao {
     text-align: center;
@@ -78,6 +104,7 @@ h1 {
 .botao form button:hover {
     background-color: white;
     color: black;
-    font-weight: bold
+    font-weight: bold;
+    transition: 0.6s;
     
 }
